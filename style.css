@@ -1,0 +1,49 @@
+html, body, ul, p, div, span, img, form, h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 720px;
+    margin: 0 auto;
+}
+h1{
+    padding: .8em 0;
+    margin-bottom: .8em;
+    border-bottom: 1px solid #dcdcdc;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    display: block;
+    width: 100%;
+    padding: .5em;
+}
+button[type="submit"]{
+    display: block;
+    padding: 1em 3em;
+    background: rgb(110,105,245);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.field-group{
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+textarea{
+    min-height: 10vh;
+}
+.ideas ul{
+    list-style: none;
+    margin: .5em 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+}
+.ideas ul li img{
+    display: block;
+    max-width: 100%;
+}
